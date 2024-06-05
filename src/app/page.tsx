@@ -32,7 +32,7 @@ export default function Home() {
     <div className="flex flex-col gap-y-8 mx-auto px-8 md:px-48 lg:64 py-8 sm:py-16">
       <Section
         title="Style Mixture of Experts for Expressive Text-To-Speech Synthesis"
-        body="Submitted to Interspeech 2024. We will release the paper's code after acceptance to the conference."
+        body=""
       />
       <Section
         title="Abstract"
