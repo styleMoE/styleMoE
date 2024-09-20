@@ -36,7 +36,7 @@ export default function Home() {
       />
       <Section
         title="Abstract"
-        body="Recent advances in style transfer text-to-speech (TTS) have improved the expressiveness of synthesized speech. Despite these advancements, encoding stylistic information from diverse and unseen reference speech remains challenging. This paper introduces StyleMoE, an approach that divides the embedding space, modeled by the style encoder, into tractable subsets handled by style experts. The proposed method replaces the style encoder in a TTS system with a Mixture of Experts (MoE) layer. By utilizing a gating network to route reference speeches to different style experts, each expert specializes in aspects of the style space during optimization. Our experiments objectively and subjectively demonstrate the effectiveness of our proposed method in increasing the coverage of the style space for diverse and unseen styles. This approach can enhance the performance of existing state-of-the-art style transfer TTS models, marking the first study of MoE in style transfer TTS to our knowledge"
+        body="Recent advances in style transfer text-to-speech (TTS) have improved the expressiveness of synthesized speech. Despite these advancements, encoding stylistic information from diverse and unseen reference speech remains challenging. This paper introduces StyleMoE, an approach that divides the embedding space into tractable subsets handled by style experts. The proposed method replaces the style encoder in a TTS system with a Mixture of Experts (MoE) layer. By utilizing a gating network to route reference speech samples to different style experts, which specialize in different aspects of the style space, StyleMoE improves the overall speaking style coverage in style transfer TTS. Our experiments objectively and subjectively demonstrate the improvement of style transfer for diverse and unseen styles. This approach enhances the performance of existing state-of-the-art style transfer TTS models, marking the first study of style MoE in TTS"
       />
 
       <Section
@@ -45,7 +45,7 @@ export default function Home() {
         <img src="figures/stylemoe.png" alt="StyleMoE" />
         <div className="mt-4">
           <p className="text-sm sm:text-md italic text-justify">
-            Figure 1: Architecture of StyleMoE. Subfigure (b) illustrates the integration of StyleMoE into the Style Adaptor of GenerSpeech [1]. Subfigure (c) depicts the StyleMoE layer [2], wherein each Style Expert block is a style reference encoder.
+            Figure 1: The architecture of StyleMoE-TTS. Red modules represent modules from GenerSpeech. Green modules represent the Mixture of Experts layer. Purple modules represent style experts. The darker purple modules represent the style experts chosen by the gating network. Subfigures (a) and (b) illustrate the integration of StyleMoE into StyleMoE-TTS. Subfigure (c) depicts the StyleMoE layer, wherein each Style Expert block is a style reference encoder. Subfigure (d) illustrates the gating network.
           </p>
         </div>
       </Section>
