@@ -32,7 +32,7 @@ export default function Home() {
     <div className="flex flex-col gap-y-8 mx-auto px-8 md:px-48 lg:64 py-8 sm:py-16">
       <Section
         title="Style Mixture of Experts for Expressive Text-To-Speech Synthesis"
-        body=""
+        body="This is an anonymous sample site for the StyleMoE paper submitted to the Audio Imagination Workshop at NeurIPS 2024. Below, you will find audio samples from the paper."
       />
       <Section
         title="Abstract"
