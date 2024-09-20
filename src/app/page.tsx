@@ -76,31 +76,6 @@ export default function Home() {
       </Section>
 
       <Section
-        title="VCTK Speech Samples: Parallel"
-      >
-        <Table
-          data={[
-            getRowData("vctk", "parallel", 1),
-            getRowData("vctk", "parallel", 7),
-            getRowData("vctk", "parallel", 14),
-          ]}
-        />
-      </Section>
-
-      <Section
-        title="VCTK Speech Samples: Non-Parallel"
-      >
-        <Table
-          data={[
-            getRowData("vctk", "nonparallel", 14),
-            getRowData("vctk", "nonparallel", 6),
-            getRowData("vctk", "nonparallel", 15),
-          ]}
-        />
-      </Section>
-
-
-      <Section
         title="References"
       >
         <ul className="flex flex-col gap-y-4">
