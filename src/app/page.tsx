@@ -40,7 +40,7 @@ export default function Home() {
       />
 
       <Section
-        title="Purposed Method"
+        title="Proposed Method"
       >
         <img src="figures/stylemoe.png" alt="StyleMoE" />
         <div className="mt-4">
